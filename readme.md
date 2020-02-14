@@ -9,8 +9,8 @@ Demo:
 
 ## Usage
 ```html
-<button onClick="login">login & get info</button> 
-<button onClick="fbapi.share('https://zxccxz0119.github.io/')">share</button>
+<button onClick="login()">login & get info</button> 
+<button onClick="fbapi.share('https://www.w3schools.com/')">share</button>
 ```
 ```js
 var fbapi = new FBApi({
